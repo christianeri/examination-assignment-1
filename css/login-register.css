@@ -17,10 +17,17 @@
 .path .section-right {
      color: var(--kenkata-theme);
 }
+     .path .section-right a {
+          color: var(--kenkata-theme);
+          transition: 0.2s;
+     }
+     .path .section-right a:hover {
+          font-weight: var(--font-weight-bold);
+          filter: brightness(120%);  
+     }
      .path .section-right span {
           color: var(--color-white);
      }
-
 
 
 .login-register .container {

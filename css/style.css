@@ -29,6 +29,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
 
+
 /* general elements */
 
 html, body, a {
@@ -103,6 +104,8 @@ footer {
           padding: 2rem 0;
 }
 
+
+
 /* general classes */
 
 .bg-theme {
@@ -148,7 +151,6 @@ footer {
      transition: 0.1s;
 }
      .button-theme:hover {
-          /* background-color: var(--kenkata-theme-hover); */
           transform: scale(104%);
           filter: brightness(110%);  
      }

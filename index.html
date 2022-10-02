@@ -115,9 +115,9 @@
                          <div class="section-left">
                          
                               <div class="dropdown">   
-                                   <a class="btn browse-by-category d-flex" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="browse-by-category d-flex">
                                         <i class="fa-solid fa-bars"></i>
-                                        <h4>Browse categories</h4>
+                                        <span id="selected-language">Browse categories</span>
                                         <i class="fa-light fa-chevron-down ml-1"></i>
                                    </a>                              
                                    <ul class="dropdown-menu">
@@ -168,7 +168,7 @@
                <a href="#">
                     <div class="information-box">
                          <img src="img/shipping-icon.svg" alt="Shipping icon">
-                         <div class="">
+                         <div>
                               <h5>Free shipping</h5>                        
                               <p>We provide free shipping for local customers</p>
                          </div>
@@ -177,7 +177,7 @@
                <a href="#">
                     <div class="information-box">               
                          <img src="img/24-icon.svg" alt="Support icon">
-                         <div class="">
+                         <div>
                               <h5>24/7 Support</h5>                        
                               <p>Our support team will respond to any enquiries at any time</p>
                          </div>
@@ -185,21 +185,22 @@
                </a>
                <a href="#">
                     <div class="information-box">
-                         <img src="img/payment-icon.svg" alt=Payment icon">
-                         <div class="">
+                         <img src="img/payment-icon.svg" alt="Payment icon">
+                         <div>
                               <h5>Online payment</h5>                        
                               <p>Pay quickly and easily with our online payment system</p>
                          </div>
                     </div>
                </a>
+               <a href="#">
                <div class="information-box">
                     <img src="img/delivery-icon.svg" alt="Delivery icon">
-                    <div class="">
+                    <div>
                          <h5>Fast delivery</h5>                        
                          <p>We understand your urgency and provide fast delivery</p>
                     </div>
                </div>
-
+               </a>
           </div>
      </section>
 
@@ -449,7 +450,7 @@
 
      <section class="promo-light">
           <div class="container">               
-               <!-- mysterium -->
+               
                <div class="promo-box-left">
                     <div class="promo-box-top">
                          <span>                         
@@ -929,15 +930,6 @@
           </div>
      </footer>
 
-     <!-- demo -->
-     <script>
-          const tooltips = document.querySelectorAll('.tt')
-          tooltips.forEach(
-               t => {
-                    new bootstrap.Tooltip(t)
-               }
-          )
-     </script>
 
 </body>
 </html>

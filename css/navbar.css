@@ -1,5 +1,6 @@
 
-/* top navbar --------------------------------------------------------- */
+/* Top navigation bar middle row - §nav1 - (navbar.css) */
+
 
 header .container {
      display: flex;
@@ -25,9 +26,6 @@ header .container > * {
 .navbar-links-light a:hover {
      color: var(--kenkata-dark-1);
 }
-.navbar-links-light a:hover h4 {
-     color: var(--kenkata-dark-1);
-}
 
 
 
@@ -50,6 +48,8 @@ header .container > * {
      padding-left: 2px;
 }
 
+
+
 .dropdown-menu a {
      color: var(--kenkata-dark-1);
 }
@@ -61,10 +61,6 @@ header .container > * {
 
 /* top navbar level 1 */
 
-.top-navbar {
-     display: none;
-}
-
 .top-navbar-top {
      height: 40px;
      background-color: var(--kenkata-theme);
@@ -73,15 +69,11 @@ header .container > * {
           font-size: var(--size-16);
      }
 
-.links-left {
-     display: none;
-}
      .links-left a {
           padding: 1rem;
      }
 
 .links-right {
-     display: none;
      margin-left: 2rem;
 }
      .links-right a {
@@ -103,7 +95,6 @@ header .container > * {
           flex: 3;
      }
           .logo {
-               display: none;
                height: 2rem;
           }
 
@@ -206,9 +197,11 @@ header .container > * {
      font-size: var(--size-18);
 
 }
-     .browse-by-category h4 {
+     .browse-by-category span {
           padding-left: 0.5rem;
-          text-transform: none;
+     }
+     .browse-by-category i {
+          padding-left: 1rem;
      }
 
      .browse-by-category .fa-chevron-down {
@@ -226,50 +219,11 @@ header .container > * {
 
 .button-special-offer {
      border-radius: 2rem;
-     padding: .5em 1rem;
+     padding: 0.5rem 1rem;
 }
 
 
 
 
 
-@media (min-width: 768px) {
-
-     .top-navbar {
-          display: inline;
-     }
-
-     .top-navbar-small {
-          display: none;
-     }
-
-     .top-navbar-top .links-left {
-          display: inline;    
-     }
-
-     .top-navbar-top .links-right {
-          display: flex;
-     }
-
-     .logo {
-          display: flex;
-     }
-
-     .button-special-offer {
-          display: inline;
-     }
-
-
-     .hero-top .hero-box h1 {
-          font-size: var(--size-60);
-          font-family: var(--font-play);
-     }
-
-     .top-navbar-bottom .special-offer-box {
-          display: flex;
-     }
-
-     .logo {
-          display: flex;
-     }
-}
+/* @media (min-width: 768px) {} */

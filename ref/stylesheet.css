@@ -210,6 +210,7 @@ footer {
 
 /* Top navigation bar - §nav - (navbar.css) */
 
+
 header .container {
      display: flex;
      height: 100%;
@@ -220,7 +221,6 @@ header .container > * {
      display: flex;
      align-items: center;
 }
-
 
 
 .navbar-links-light a {
@@ -234,10 +234,6 @@ header .container > * {
 .navbar-links-light a:hover {
      color: var(--kenkata-dark-1);
 }
-.navbar-links-light a:hover h4 {
-     color: var(--kenkata-dark-1);
-}
-
 
 
 .navbar-links-dark a {
@@ -259,6 +255,7 @@ header .container > * {
      padding-left: 2px;
 }
 
+
 .dropdown-menu a {
      color: var(--kenkata-dark-1);
 }
@@ -270,10 +267,6 @@ header .container > * {
 
 /* top navbar level 1 */
 
-.top-navbar {
-     display: none;
-}
-
 .top-navbar-top {
      height: 40px;
      background-color: var(--kenkata-theme);
@@ -282,15 +275,11 @@ header .container > * {
           font-size: var(--size-16);
      }
 
-.links-left {
-     display: none;
-}
      .links-left a {
           padding: 1rem;
      }
 
 .links-right {
-     display: none;
      margin-left: 2rem;
 }
      .links-right a {
@@ -312,7 +301,6 @@ header .container > * {
           flex: 3;
      }
           .logo {
-               display: none;
                height: 2rem;
           }
 
@@ -415,9 +403,11 @@ header .container > * {
      font-size: var(--size-18);
 
 }
-     .browse-by-category h4 {
+     .browse-by-category span {
           padding-left: 0.5rem;
-          text-transform: none;
+     }
+     .browse-by-category i {
+          padding-left: 1rem;
      }
 
      .browse-by-category .fa-chevron-down {
@@ -435,9 +425,10 @@ header .container > * {
 
 .button-special-offer {
      border-radius: 2rem;
-     padding: .5em 1rem;
+     padding: 0.5rem 1rem;
 }
 
+/* @media (min-width: 768px) {} */
 
 
 
@@ -583,7 +574,7 @@ header .container > * {
      .category-grid-box .category-grid-box-title {
           position: absolute;
           left: 0;
-          bottom: -2.6rem;
+          bottom: -2.7rem;
           width: 55%; 
           background-color: var(--kenkata-dark-2);
           border-top-right-radius: var(--border-radius-small);
@@ -902,10 +893,17 @@ top-sellers .showcase-box img {
 .path .section-right {
      color: var(--kenkata-theme);
 }
+     .path .section-right a {
+          color: var(--kenkata-theme);
+          transition: 0.2s;
+     }
+     .path .section-right a:hover {
+          font-weight: var(--font-weight-bold);
+          filter: brightness(120%);  
+     }
      .path .section-right span {
           color: var(--color-white);
      }
-
 
 
 .login-register .container {

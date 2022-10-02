@@ -49,7 +49,7 @@
      .category-grid-box .category-grid-box-title {
           position: absolute;
           left: 0;
-          bottom: -2.6rem;
+          bottom: -2.7rem;
           width: 55%; 
           background-color: var(--kenkata-dark-2);
           border-top-right-radius: var(--border-radius-small);
