@@ -1,0 +1,144 @@
+/* General for "promotion bar" sections - §promo - (promo.css) */
+
+
+.promo-box-left {
+     width: 350px;
+     background-color: var(--kenkata-theme);
+     font-family: var(--font-play);
+     font-size: var(--size-16);
+     text-transform: uppercase;
+     text-align: center;
+}
+     .promo-box-left h1 {
+          font-weight: var(--font-weight-bold);
+     }
+
+     .promo-box-top span > * {
+          display: inline;
+     }
+
+.promo-box-bottom {
+     display: flex;
+     justify-content: center;
+     align-items: start;
+     margin: 1rem 0;
+}
+
+
+/* promo light */
+
+.promo-light {
+     height: 418px;
+     background-color: var(--kenkata-grey-2);
+     color: var(--color-white);
+}
+
+.promo-light .container {
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.promo-light .promo-box-left .promo-box-top {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.promo-light .promo-box-top {
+     height: 238px;
+}
+     .promo-light .promo-box-left h2 {
+               color: var(--color-white); 
+               font-size: var(--size-36);
+               margin-left: 1rem;
+          }
+     .promo-light .promo-box-left .promo-box-top {
+          flex-direction: column;
+     }
+
+.promo-light .promo-box-right {
+     width: 576px;
+}
+     .promo-light .promo-box-right .promo-box-top {
+          position: relative;
+     }
+
+     .promo-light .promo-box-right .promo-box-top p {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          color: var(--color-white);
+     }
+     
+     .promo-light .promo-box-right .promo-box-bottom {
+          justify-content: start;
+     }
+
+
+
+/* promo dark */
+
+.promo-dark {
+     height: 418px;
+     background-color: var(--kenkata-dark-2);
+     color: var(--color-white);
+}
+     .promo-dark .container {
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+     }
+     .promo-dark .promo-box-left {
+          height: 265px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .promo-dark .promo-box-right {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+     }
+
+     .promo-dark .promo-box-right .promo-box-top {
+          height: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: end;
+          margin: 1rem 0;
+     }
+
+     .promo-dark .promo-box-right .promo-box-bottom {
+          height: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: start;
+          margin: 1rem 0;
+     }
+
+.countdown-box {
+     position: relative;
+     margin: 0 1rem;
+     /* display: flex;
+     align-items: center; 
+     justify-content: center;   */
+     height: 109px;
+     width: 109px;          
+     background-color: var(--color-white);
+     border-radius: 50%;
+     outline: 3px dashed var(--kenkata-theme);
+}
+     .countdown-box h2 {
+          position: absolute;
+          top: 15%;
+          left: 50%; transform: translateX(-50%);
+          color: var(--kenkata-theme);
+     }
+     .countdown-box p {
+          position: absolute;
+          top: 60%;
+          left: 50%; transform: translateX(-50%);
+          color: var(--kenkata-dark-1);
+     }

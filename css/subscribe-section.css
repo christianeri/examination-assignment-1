@@ -1,0 +1,51 @@
+ /* Subscribe section - §subscribe - (section-subscribe.css)  */
+
+.subscribe {
+     background-color: var(--kenkata-grey-5);
+     margin: 0;
+}
+
+.subscribe .container {
+     height: 300px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.subscribe .section-left {
+     width: 51%;
+}
+     .subscribe .section-left p {
+          width: 80%;
+     }
+
+.email-box {
+     width: 80%;
+     position: relative;
+     margin-top: 1.5rem;
+}
+     .email-box input {
+          height: 50px;
+          width: 100%;
+          border: 2px solid var(--kenkata-grey-3);
+          border-radius: var(--border-radius-medium);
+          padding-left: 1.5rem;
+          color: var(--kenkata-grey-1);
+     }
+     .email-box button {
+          position: absolute;
+          top: 5px;
+          right: 5px; 
+          
+          height: 40px;
+          border-radius: var(--border-radius-medium);
+          text-transform: capitalize;
+
+          padding: 0 1rem;
+     }
+
+.subscribe .section-right {
+     height: 100%;
+     width: 49%;
+     background-color: var(--kenkata-grey-2);
+}

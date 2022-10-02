@@ -1,0 +1,42 @@
+:root {
+     --kenkata-theme: #20D3C2;
+     --kenkata-theme-hover: #1EC4B4;
+     --kenkata-theme-light: #DCF9F5;
+     --kenkata-dark-1: #0E153D;
+     --kenkata-dark-2: #2E3456;
+     --kenkata-dark-3: #4A4F6C;
+     --kenkata-grey-1: #AAAAAA;
+     --kenkata-grey-2: #CCCCCC;
+     --kenkata-grey-3: #E3E3E3;
+     --kenkata-grey-4: #EEEEEE;
+     --kenkata-grey-5: #F6F6F6;
+     --kenkata-in-stock: #82D8C6;
+     --kenkata-out-of-stock: #FE6C6C; 
+     --kenkata-sale: #64CB83;
+     --kenkata-hot: #FE4545;
+
+     --color-white: #FFFFFF;
+
+     --color-facebook: #3B5998;
+     --color-facebook-hover: #36528C;
+     --color-google: #4285F4;
+
+     --font-play: 'Play', sans-serif;
+     --font-roboto: 'Roboto', sans-serif;
+
+     --font-weight-regular: 400;
+     --font-weight-medium: 500;
+     --font-weight-bold: 700;
+
+     --size-14: 1.17rem;
+     --size-16: 1.33rem;
+     --size-18: 1.5rem;
+     --size-24: 2rem;
+     --size-36: 3rem;
+     --size-48: 4rem;
+     --size-60: 5rem;
+
+     --border-radius-small: 8px;
+     --border-radius-medium: 25px;
+     --border-radius-rounded: 50%;
+}

@@ -1,0 +1,123 @@
+/* Login & register page body - (login-register.css) */
+
+.path {
+     height: 140px;
+     text-transform: capitalize;
+     background-color: var(--kenkata-dark-1);
+     filter: opacity(0.65);
+}
+
+.path .container {
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.path .section-right {
+     color: var(--kenkata-theme);
+}
+     .path .section-right span {
+          color: var(--color-white);
+     }
+
+
+
+.login-register .container {
+     display: flex;
+     justify-content: space-between;   
+}
+
+.login-register-box {
+     width: 49%;
+     padding: 1rem;
+     border-radius: var(--border-radius-small);
+     background-color: var(--kenkata-grey-5);
+}
+     .login-register-box a {
+          color: var(--kenkata-theme);
+          font-weight: var(--font-weight-bold);
+          transition: 0.2s;
+     }
+     .login-register-box h3, h4 {
+          color: var(--kenkata-dark-1);
+          text-transform: uppercase;
+     }
+     .login-register-box form {
+          font-family: var(--font-roboto);
+     }
+          .login-register-box form span {
+               color: var(--kenkata-theme);
+          }
+
+     .login-register-box > * {
+          margin: 1.5rem;
+     }
+     .login-register-box > img {
+          margin: auto;
+     }
+
+.button-form {
+     border: none;
+     border-radius: var(--border-radius-medium);
+     background-color: var(--kenkata-theme);
+     text-transform: uppercase;
+     color: var(--color-white);
+
+     height: 3.25rem;
+     width: 100%;
+     margin-top: 1rem;
+}
+
+.login-help {
+     display: flex;
+     justify-content: space-between;
+}
+     .login-help a {
+          padding-top: 1px;
+     }
+     .login-help a:hover {
+          color: var(--kenkata-dark-1);
+     }
+
+
+.login-social-media > div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+     .login-social-media > div h4 {
+          color: var(--kenkata-dark-1);
+     }
+
+.button-social-media {
+     display: flex;
+     border-radius: var(--border-radius-small);
+     border: none;
+     padding: 0.7rem;
+     margin-top: 2rem;
+     color: var(--color-white);
+     transition: 0.2s ease-in-out;
+}
+     .button-social-media img {
+          align-self: flex-start;
+     }
+     .button-social-media span {          
+          margin: auto;
+     }
+     .button-social-media:hover {
+          transform: scale(105%);
+          filter: brightness(120%);         
+     } 
+
+
+.facebook {
+     width: 49%;
+     background-color: var(--color-facebook);
+}
+.google {
+     width: 49%;
+     background-color: var(--color-google);
+}
+
+

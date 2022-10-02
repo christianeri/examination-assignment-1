@@ -1,0 +1,31 @@
+/* Hero text section - §hero -(section-hero.css) */
+
+.hero {
+     height: 600px;
+     background-color: var(--kenkata-grey-4);
+}
+
+.hero .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.hero-box {
+     width: 550px;
+}
+
+.hero-box p {
+     margin: 2rem 0;
+}
+
+.hero-top h1 {
+     font-size: var(--size-48);
+     font-family: var(--font-play);
+}
+.hero-h1-theme {
+     font-weight: var(--font-weight-bold);
+     text-transform: uppercase;
+     color: var(--kenkata-theme);
+     text-justify: inter-character;
+} 

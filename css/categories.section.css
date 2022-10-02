@@ -1,0 +1,73 @@
+/* Shop by Category section - §category - (section-categories.css) */
+
+.shop-by-category .container {
+     display: flex;
+     justify-content: center;
+}
+
+.grid {
+     display: grid;
+     gap: 0.8rem;
+     grid-template-columns: repeat(5, minmax(100px, 249px));
+     grid-template-rows: repeat(3, minmax(100px, 249px));
+}
+
+#grid-box-men {
+     grid-column: 1 / 1;
+     grid-row: 1 / 1;
+}
+
+#grid-box-women {
+     grid-column: 2 / 4;
+     grid-row: 1 / 1;
+}
+
+#grid-box-kids {
+     grid-column: 4 / -1;
+     grid-row: 1 / 3;
+}
+
+#grid-box-shoes {
+     grid-column: 1 / 3;
+     grid-row: 2 / -1;
+}
+
+#grid-box-sunglasses {
+     grid-column: 3 / 5;
+     grid-row: 3 / -1;
+}
+
+.category-grid-box {
+     position: relative;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     border-radius: var(--border-radius-small);
+     background-color: var(--kenkata-grey-2);
+     overflow: hidden;
+}
+     .category-grid-box .category-grid-box-title {
+          position: absolute;
+          left: 0;
+          bottom: -2.6rem;
+          width: 55%; 
+          background-color: var(--kenkata-dark-2);
+          border-top-right-radius: var(--border-radius-small);
+          padding: 1rem;
+          font-size: var(--size-16);
+          font-weight: var(--font-weight-medium);
+          color: var(--kenkata-theme);
+          text-transform: capitalize;
+          transition: 0.2s ease-in-out;
+     }
+          .category-grid-box .category-grid-box-title p {
+               color: var(--color-white);
+               font-size: var(--size-16);
+               font-weight: var(--font-weight-regular);
+          }
+
+     .category-grid-box:hover .category-grid-box-title {
+          width: 100%;
+          bottom: 0;
+     }     
+

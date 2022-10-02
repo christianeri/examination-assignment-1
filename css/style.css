@@ -1,0 +1,187 @@
+/* 
+
+     0  General, buttons, footer: -------- styles.css
+     1  Navbar: -------------------------- navbar-section.css
+     2  Hero: ---------------------------- hero-section.css
+     3  Information: --------------------- information-section.css
+     4  Categories: ---------------------- categories.section.css
+     5  New Arrivals: -------------------- showcase-sections.css
+     6  New Customer Discount: ----------- promo-section.css
+     7  Featured Products: --------------- showcase-sections.css
+     8  Flash Sale: ---------------------- promo-sections.css 
+     9  Top Sellers: --------------------- showcase-sections.css
+     10 Subscribe ------------------------ subscribe-section.css 
+     11 Login/register ------------------- login-register.css      
+
+*/
+
+@import url('root.css');
+@import url('navbar.css');
+@import url('hero-section.css');
+@import url('information-section.css');
+@import url('categories.section.css');
+@import url('showcase.css');
+@import url('promo.css');
+@import url('subscribe-section.css');
+
+@import url('login-register.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+/* general elements */
+
+html, body, a {
+     font-size: 16px;
+     line-height: 1.5;
+     font-family: var(--font-roboto);
+     font-weight: var(--font-weight-regular);
+     text-decoration: none;
+}
+
+
+section {
+     margin-bottom: 7rem;
+}
+
+h1 {
+     font-family: var(--font-play);
+     font-size: var(--size-60);
+}
+
+h2 {
+     font-family: var(--font-play);
+     font-size: var(--size-36);
+     text-transform: uppercase;
+     font-weight: var(--font-weight-bold);
+     color: var(--kenkata-dark-1);
+}
+
+h3 {
+     font-family: var(--font-roboto);
+     font-weight: var(--font-weight-medium);
+     font-size: var(--size-24);
+     color: var(--kenkata-dark-1);
+     margin: 0;
+     padding: 0;
+}
+
+h4 {
+     font-family: var(--font-roboto);
+     font-size: var(--size-18);
+     font-weight: var(--font-weight-regular);
+     color: var(--color-white);
+     margin: 0;
+     padding: 0;
+}
+
+h5 {
+     font-family: var(--font-roboto);
+     font-size: var(--size-16);
+     font-weight: var(--font-weight-medium);
+     color: var(--kenkata-theme);
+}
+
+p {
+     margin: 0;
+}
+
+p > a:hover {
+     color: var(--kenkata-dark-1);
+}
+
+/* footer */
+
+footer {
+     font-family: var(--font-roboto);
+     font-size: var(--size-16);
+}
+
+.footer {
+     background-color: var(--kenkata-dark-1);
+          color: var(--color-white);
+          padding: 2rem 0;
+}
+
+/* general classes */
+
+.bg-theme {
+     background-color: var(--kenkata-theme);
+}
+
+.container {
+     padding: 0;
+}
+
+.font-theme {
+     color: var(--kenkata-theme);
+}
+
+.font-theme-24 {
+     font-family: var(--font-roboto);
+     font-weight: var(--font-weight-medium);
+     font-size: var(--size-24);
+     color: var(--kenkata-theme); 
+}
+
+.section-title {
+     margin-bottom: 2rem;
+}
+
+.section-title > * {
+     display: block;
+     text-align: center;
+}
+
+.section-title img {
+     margin: 1rem auto 1rem auto;
+}
+
+/* reacurring buttons */
+
+.button-theme {
+     background-color: var(--kenkata-theme);
+     color: var(--color-white);
+     font-weight: var(--font-weight-medium);
+     text-transform: uppercase;
+     border: none;
+     transition: 0.1s;
+}
+     .button-theme:hover {
+          /* background-color: var(--kenkata-theme-hover); */
+          transform: scale(104%);
+          filter: brightness(110%);  
+     }
+
+.button-light {
+     color: var(--kenkata-theme);
+     background-color: var(--color-white);
+     font-weight: var(--font-weight-medium);
+     font-size: var(--size-18);
+     text-transform: uppercase;
+     border: none;
+     border-radius: 2rem;
+     padding: 1rem 2rem;
+     transition: 0.2s;
+}
+
+.button-dark {
+     color: var(--color-white);
+     background-color: var(--kenkata-dark-1);
+     font-weight: var(--font-weight-medium);
+     font-size: var(--size-18);
+     text-transform: uppercase;
+     border: none;
+     border-radius: 2rem;
+     padding: 1rem 2rem;
+     transition: 0.2s;
+}
+     .button-light:hover,
+     .button-dark:hover  {
+          transform: scale(110%);
+          filter: brightness(105%);
+     }
+
+.button-hover:hover {
+     transform: scale(110%);
+}
